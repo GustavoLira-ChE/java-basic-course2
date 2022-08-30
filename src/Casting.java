@@ -9,7 +9,7 @@ public class Casting {
         System.out.println(cInt);
 
         int i = 250;
-        long iLong = i;
+        long iLong = (long) i;
         short iShort = (short) iLong;
 
         System.out.println(i);
